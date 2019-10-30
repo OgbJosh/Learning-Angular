@@ -5,7 +5,8 @@ import { FormsModule } from '@angular/forms';
 import { AppComponent } from './app.component';
 import { HelloComponent } from './hello.component';
 import { ProductComponent } from './Products/product-list.component';
-import { ConvertToSpacesPipe } from './shared/convert-to-spaces.pipe'
+import { ConvertToSpacesPipe } from './shared/convert-to-spaces.pipe';
+import { StarComponent } from './shared/star.component'
 
 @NgModule({
   imports:      [ BrowserModule, FormsModule ],
@@ -13,7 +14,8 @@ import { ConvertToSpacesPipe } from './shared/convert-to-spaces.pipe'
     AppComponent, 
     HelloComponent, 
     ProductComponent,
-    ConvertToSpacesPipe 
+    ConvertToSpacesPipe,
+    StarComponent
 ],
   bootstrap:    [ AppComponent ]
 })
